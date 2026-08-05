@@ -1,0 +1,7 @@
+,MAE,RMSE,R2,CV_R2
+Random Forest,8.9,11.08,0.932,0.9182
+Linear Regression,9.07,11.36,0.9286,0.9223
+Ridge Regression,9.08,11.37,0.9284,0.9224
+Lasso Regression,9.05,11.38,0.9284,0.9226
+Gradient Boosting,9.7,11.87,0.9221,0.9123
+Decision Tree,10.97,13.78,0.895,0.8716
