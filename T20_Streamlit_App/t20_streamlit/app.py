@@ -448,10 +448,6 @@ st.markdown("""
     <br>
     <span class="credit-name">GOWTHAM KUMAR G</span>
     <br>
-    <span style="color:rgba(255,255,255,0.2);font-size:0.68rem;letter-spacing:1px">
-        
-    </span>
-    <br><br>
     
 </div>
 """, unsafe_allow_html=True)
