@@ -346,7 +346,7 @@ st.markdown('<div class="top-bar"></div>', unsafe_allow_html=True)
 st.markdown("""
 <div class="title-wrap">
     <div class="main-title">T20 PREDICTOR</div>
-    <div class="sub-title">Powerplay Intelligence · Machine Learning</div>
+    <div class="sub-title">Powerplay Intelligence</div>
     <div class="blue-line"></div>
 </div>
 """, unsafe_allow_html=True)
@@ -354,8 +354,10 @@ st.markdown("""
 
 # ── INPUT CARD ────────────────────────────────────────────────
 st.markdown("""
-<div class="glass-card">
-<div class="sec-lbl">⚡ Enter Powerplay Stats — Overs 1 to 6</div>
+
+<div class="sec-lbl" style="font-weight: bold;">
+    ⚡ Enter Powerplay Stats — Overs 1 to 6
+</div>
 </div>
 """, unsafe_allow_html=True)
 
@@ -447,7 +449,7 @@ st.markdown("""
     <span class="credit-name">GOWTHAM KUMAR G</span>
     <br>
     <span style="color:rgba(255,255,255,0.2);font-size:0.68rem;letter-spacing:1px">
-        B.Tech IT &nbsp;·&nbsp; Nandha Engineering College &nbsp;·&nbsp; 2024
+        
     </span>
     <br><br>
     <span style="color:rgba(255,255,255,0.12);font-size:0.65rem">
