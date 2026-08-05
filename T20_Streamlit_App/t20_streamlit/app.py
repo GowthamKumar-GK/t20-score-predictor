@@ -355,7 +355,7 @@ st.markdown("""
 # ── INPUT CARD ────────────────────────────────────────────────
 st.markdown("""
 
-<div class="sec-lbl" style="font-weight: bold; font-size: 28px;">
+<div class="sec-lbl" style="font-weight: bold; font-size: 23px;">
     ⚡ Enter Powerplay Stats — Overs 1 to 6
 </div>
 </div>
