@@ -345,7 +345,7 @@ st.markdown('<div class="sec-lbl">⚡ Enter Powerplay Stats — Overs 1 to 6</di
 
 c1, c2 = st.columns(2)
 with c1:
-    pp_runs    = st.number_input("PP Runs",    min_value=5,  max_value=120, value=0, step=1, key="ppr")
+    pp_runs    = st.number_input("PP Runs",    min_value=0,  max_value=120, value=0, step=1, key="ppr")
 with c2:
     pp_wickets = st.number_input("PP Wickets", min_value=0,  max_value=7,   value=0,  step=1, key="ppw")
 
