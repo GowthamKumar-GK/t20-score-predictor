@@ -452,8 +452,6 @@ st.markdown("""
         
     </span>
     <br><br>
-    <span style="color:rgba(255,255,255,0.12);font-size:0.65rem">
-        VIRAT KOHLI · MS DHONI · ROHIT SHARMA · MANISH PANDEY
-    </span>
+    
 </div>
 """, unsafe_allow_html=True)
