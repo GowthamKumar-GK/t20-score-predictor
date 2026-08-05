@@ -253,7 +253,14 @@ div[data-baseweb="popover"] li {
 /* HIDE STREAMLIT CHROME */
 #MainMenu, footer, header { visibility: hidden; }
 section[data-testid="stSidebar"] { display: none !important; }
-.block-container { padding-top: 0 !important; max-width: 560px !important; }
+.block-container { 
+    padding-top: 0 !important; 
+    padding-bottom: 0 !important;
+    max-width: 560px !important; 
+}
+
+.stAppViewContainer { padding-top: 0 !important; }
+div[data-testid="stAppViewBlockContainer"] { padding-top: 0 !important; }
 </style>
 """, unsafe_allow_html=True)
 
