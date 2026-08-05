@@ -353,8 +353,11 @@ st.markdown("""
 
 
 # ── INPUT CARD ────────────────────────────────────────────────
-st.markdown('<div class="glass-card">', unsafe_allow_html=True)
-st.markdown('<div class="sec-lbl">⚡ Enter Powerplay Stats — Overs 1 to 6</div>', unsafe_allow_html=True)
+st.markdown("""
+<div class="glass-card">
+<div class="sec-lbl">⚡ Enter Powerplay Stats — Overs 1 to 6</div>
+</div>
+""", unsafe_allow_html=True)
 
 c1, c2 = st.columns(2)
 with c1:
@@ -374,7 +377,7 @@ pitch_sel = st.selectbox(
 )
 pitch_num = {"Slow / Spin 🐌":0, "Flat 🏟️":1, "Bouncy / Pace 💨":2}[pitch_sel]
 
-st.markdown('</div>', unsafe_allow_html=True)
+
 
 
 # ── AUTO PREDICT ──────────────────────────────────────────────
