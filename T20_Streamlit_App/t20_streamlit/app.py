@@ -121,13 +121,19 @@ div[data-testid="stNumberInput"] label {
     font-size: 0.85rem !important;
 }
 div[data-testid="stNumberInput"] input {
-    background: rgba(255,255,255,0.07) !important;
-    border: 1px solid rgba(30,144,255,0.3) !important;
+    background: rgba(0,0,0,0.6) !important;
+    border: 1px solid rgba(30,144,255,0.5) !important;
     border-radius: 10px !important;
-    color: white !important;
+    color: #FFFFFF !important;
     font-size: 1.2rem !important;
-    font-weight: 600 !important;
+    font-weight: 700 !important;
     text-align: center !important;
+    -webkit-text-fill-color: #FFFFFF !important;
+    opacity: 1 !important;
+}
+div[data-testid="stNumberInput"] input::placeholder {
+    color: rgba(255,255,255,0.5) !important;
+    -webkit-text-fill-color: rgba(255,255,255,0.5) !important;
 }
 div[data-testid="stNumberInput"] input:focus {
     border-color: #1E90FF !important;
